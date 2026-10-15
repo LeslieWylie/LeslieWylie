@@ -1,0 +1,41 @@
+name: Sync profile PRs
+
+on:
+  schedule:
+    - cron: '17 0 * * *' # 08:17 Asia/Shanghai
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/sync_prs.py
+      - .github/pr-showcase.json
+      - .github/workflows/sync-prs.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-pr-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - name: Refresh public upstream PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync_prs.py
+      - name: Publish changed showcase
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No PR showcase changes to publish"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'docs: sync public upstream PR showcase'
+          git push origin HEAD:main

@@ -1,0 +1,21 @@
+{
+  "author": "LeslieWylie",
+  "limits": {"merged": 4, "open": 8},
+  "per_project": {"merged": 3, "open": 2},
+  "featured": [
+    "vllm-project/vllm#61618",
+    "vllm-project/vllm-omni#7425",
+    "vllm-project/vllm-omni#8677"
+  ],
+  "exclude": ["sgl-project/sglang#37638"],
+  "project_names": {
+    "vllm-project/vllm": "vLLM",
+    "vllm-project/vllm-omni": "vLLM-Omni",
+    "hao-ai-lab/FastVideo": "FastVideo",
+    "sgl-project/sglang": "SGLang",
+    "MemTensor/memmy-agent": "Memmy Agent",
+    "OpenVDN/vdn-minimax-h3": "OpenVDN",
+    "NVlabs/Sana": "Sana",
+    "MLT-OSS/FirstData": "FirstData"
+  }
+}

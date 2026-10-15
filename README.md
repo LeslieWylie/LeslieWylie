@@ -10,6 +10,7 @@ I contribute to inference runtimes and agent tooling, focusing on multimodal gen
 
 [Merged PRs](#merged-prs) · [Open PRs](#open-prs) · [Agent projects](#agent-projects) · [All upstream PRs ↗](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+-user%3ALeslieWylie)
 
+<!-- PR-SYNC:START -->
 ## Merged PRs
 
 | Project | Contribution | PR |
@@ -37,6 +38,7 @@ Selected proposals, open as of **2026-10-15**. Each PR links to its implementati
 | **OpenVDN** | Add a persistent Ulysses request worker with optional low-memory decoding. | [#3](https://github.com/OpenVDN/vdn-minimax-h3/pull/3) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Aopen+-user%3ALeslieWylie)
+<!-- PR-SYNC:END -->
 
 ## Agent projects
 
