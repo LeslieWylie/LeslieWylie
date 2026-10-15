@@ -15,29 +15,31 @@ I contribute to inference runtimes and agent tooling, focusing on multimodal gen
 
 | Project | Contribution | PR |
 | :--- | :--- | :--- |
-| **FastVideo** | Import MiniMax H3 Comfy NVFP4-AWQ text encoder weights. | [#1865](https://github.com/hao-ai-lab/FastVideo/pull/1865) |
-| **vLLM-Omni** | Preserve CUDA toolkit header precedence in all-to-all JIT builds. | [#7599](https://github.com/vllm-project/vllm-omni/pull/7599) |
-| **FastVideo** | Preserve video frames when decoded audio is shorter. | [#1857](https://github.com/hao-ai-lab/FastVideo/pull/1857) |
-| **FastVideo** | Allow MiniMax H3 frame padding at the 15-second limit. | [#1842](https://github.com/hao-ai-lab/FastVideo/pull/1842) |
+| **vLLM-Omni** | Preserve CUDA toolkit header precedence in a2a JIT builds | [#7599](https://github.com/vllm-project/vllm-omni/pull/7599) |
+| **FastVideo** | Import MiniMax H3 Comfy NVFP4-AWQ text encoder | [#1865](https://github.com/hao-ai-lab/FastVideo/pull/1865) |
+| **FirstData** | docs: document MCP status tool | [#237](https://github.com/MLT-OSS/FirstData/pull/237) |
+| **FastVideo** | Preserve video frames when decoded audio is shorter | [#1857](https://github.com/hao-ai-lab/FastVideo/pull/1857) |
 
 [All merged upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Amerged+-user%3ALeslieWylie)
 
 ## Open PRs
 
-Selected proposals, open as of **2026-10-15**. Each PR links to its implementation, validation, and latest review status.
+Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 
 | Project | Proposed change | PR |
 | :--- | :--- | :--- |
-| **vLLM** | Keep failed LoRA activations retryable, avoiding a false active state after loading errors. | [#61618](https://github.com/vllm-project/vllm/pull/61618) |
-| **vLLM** | Reject inconsistent LoRA checkpoint factor ranks and incomplete A/B pairs. | [#61605](https://github.com/vllm-project/vllm/pull/61605) |
-| **vLLM** | Account for CLIP CLS rows in LLaVA tower-LoRA buffers and image mappings. | [#61799](https://github.com/vllm-project/vllm/pull/61799) |
-| **vLLM-Omni** | Add task-scoped MiniMax H3 PDD acceleration with eight denoising evaluations. | [#7425](https://github.com/vllm-project/vllm-omni/pull/7425) |
-| **vLLM-Omni** | Fuse H3 final affine and FP32 promotion while preserving input-dtype rounding. | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
-| **SGLang** | Keep adaptive speculative-decoding target graph construction outside draft contexts. | [#40962](https://github.com/sgl-project/sglang/pull/40962) |
-| **Memmy Agent** | Add dedicated SGLang/vLLM thinking-mode transports for memory LLM providers. | [#348](https://github.com/MemTensor/memmy-agent/pull/348) |
-| **OpenVDN** | Add a persistent Ulysses request worker with optional low-memory decoding. | [#3](https://github.com/OpenVDN/vdn-minimax-h3/pull/3) |
+| **vLLM** | \[LoRA\] Keep failed activations retryable | [#61618](https://github.com/vllm-project/vllm/pull/61618) |
+| **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
+| **vLLM-Omni** | MiniMax-H3: add task-scoped PDD 8-NFE acceleration | [#7425](https://github.com/vllm-project/vllm-omni/pull/7425) |
+| **vLLM** | \[LoRA\] Account for CLIP CLS rows in LLaVA tower mappings | [#61799](https://github.com/vllm-project/vllm/pull/61799) |
+| **SGLang** | speculative: Keep adaptive target graph construction outside draft contexts | [#40962](https://github.com/sgl-project/sglang/pull/40962) |
+| **Sana** | \[Sol-H3\] Support custom resident text encoders | [#505](https://github.com/NVlabs/Sana/pull/505) |
+| **Sana** | \[Sol-H3\] Expose fixed per-engine schedules and optional adapters | [#504](https://github.com/NVlabs/Sana/pull/504) |
+| **OpenVDN** | Add persistent Ulysses request worker with low-memory decode | [#3](https://github.com/OpenVDN/vdn-minimax-h3/pull/3) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Aopen+-user%3ALeslieWylie)
+
+[Automatic PR sync](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml) · Daily at 08:17 Beijing time.
 <!-- PR-SYNC:END -->
 
 ## Agent projects
