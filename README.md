@@ -31,11 +31,11 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | **vLLM** | \[LoRA\] Keep failed activations retryable | [#61618](https://github.com/vllm-project/vllm/pull/61618) |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
 | **vLLM-Omni** | MiniMax-H3: add task-scoped PDD 8-NFE acceleration | [#7425](https://github.com/vllm-project/vllm-omni/pull/7425) |
+| **huggingface/diffusers** | \[MiniMax-H3\] Bound decoded video postprocessing temporaries | [#15070](https://github.com/huggingface/diffusers/pull/15070) |
+| **Niko1221/Strata** | bench: add H20 Q8\_0 256K capacity and serving report | [#2868](https://github.com/Niko1221/Strata/pull/2868) |
 | **vLLM** | \[LoRA\] Account for CLIP CLS rows in LLaVA tower mappings | [#61799](https://github.com/vllm-project/vllm/pull/61799) |
 | **SGLang** | speculative: Keep adaptive target graph construction outside draft contexts | [#40962](https://github.com/sgl-project/sglang/pull/40962) |
 | **Sana** | \[Sol-H3\] Support custom resident text encoders | [#505](https://github.com/NVlabs/Sana/pull/505) |
-| **Sana** | \[Sol-H3\] Expose fixed per-engine schedules and optional adapters | [#504](https://github.com/NVlabs/Sana/pull/504) |
-| **OpenVDN** | Add persistent Ulysses request worker with low-memory decode | [#3](https://github.com/OpenVDN/vdn-minimax-h3/pull/3) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Aopen+-user%3ALeslieWylie)
 
