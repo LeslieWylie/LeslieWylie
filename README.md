@@ -16,9 +16,9 @@ I contribute to inference runtimes and agent tooling, focusing on multimodal gen
 | Project | Contribution | PR |
 | :--- | :--- | :--- |
 | **vLLM** | \[LoRA\] Keep failed activations retryable | [#61618](https://github.com/vllm-project/vllm/pull/61618) |
+| **Sana** | \[Sol-H3\] Support custom resident text encoders | [#505](https://github.com/NVlabs/Sana/pull/505) |
 | **vLLM-Omni** | Preserve CUDA toolkit header precedence in a2a JIT builds | [#7599](https://github.com/vllm-project/vllm-omni/pull/7599) |
 | **FastVideo** | Import MiniMax H3 Comfy NVFP4-AWQ text encoder | [#1865](https://github.com/hao-ai-lab/FastVideo/pull/1865) |
-| **FirstData** | docs: document MCP status tool | [#237](https://github.com/MLT-OSS/FirstData/pull/237) |
 
 [All merged upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Amerged+-user%3ALeslieWylie)
 
@@ -30,11 +30,11 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
 | **vLLM-Omni** | MiniMax-H3: add task-scoped PDD 8-NFE acceleration | [#7425](https://github.com/vllm-project/vllm-omni/pull/7425) |
+| **vLLM** | \[Frontend\] Reject unsupported nested Anthropic tool-result content | [#63404](https://github.com/vllm-project/vllm/pull/63404) |
+| **SGLang** | anthropic: forward inline MP4 user content to Chat | [#46119](https://github.com/sgl-project/sglang/pull/46119) |
+| **SGLang** | anthropic: reject unsupported nested tool-result blocks | [#46118](https://github.com/sgl-project/sglang/pull/46118) |
 | **huggingface/diffusers** | \[MiniMax-H3\] Bound decoded video postprocessing temporaries | [#15070](https://github.com/huggingface/diffusers/pull/15070) |
 | **vLLM** | \[LoRA\] Account for CLIP CLS rows in LLaVA tower mappings | [#61799](https://github.com/vllm-project/vllm/pull/61799) |
-| **vLLM** | \[LoRA\] Reject inconsistent checkpoint factor ranks | [#61605](https://github.com/vllm-project/vllm/pull/61605) |
-| **SGLang** | speculative: Keep adaptive target graph construction outside draft contexts | [#40962](https://github.com/sgl-project/sglang/pull/40962) |
-| **Sana** | \[Sol-H3\] Support custom resident text encoders | [#505](https://github.com/NVlabs/Sana/pull/505) |
 | **Sana** | \[Sol-H3\] Expose fixed per-engine schedules and optional adapters | [#504](https://github.com/NVlabs/Sana/pull/504) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Aopen+-user%3ALeslieWylie)
