@@ -30,12 +30,12 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
 | **vLLM-Omni** | Load Alibaba PDD adapters for MiniMax H3 | [#7425](https://github.com/vllm-project/vllm-omni/pull/7425) |
+| **FastVideo** | Reuse MiniMax-H3 text conditioning across seed sweeps | [#2022](https://github.com/hao-ai-lab/FastVideo/pull/2022) |
 | **SGLang** | openai: support field-specific assistant continuation | [#46624](https://github.com/sgl-project/sglang/pull/46624) |
 | **SGLang** | responses: Align K3 input token usage with Chat | [#46607](https://github.com/sgl-project/sglang/pull/46607) |
 | **vLLM** | \[Frontend\] Reject unsupported nested Anthropic tool-result content | [#63404](https://github.com/vllm-project/vllm/pull/63404) |
 | **huggingface/diffusers** | \[MiniMax-H3\] Postprocess decoded video in frame batches | [#15070](https://github.com/huggingface/diffusers/pull/15070) |
 | **huggingface/diffusers** | \[MiniMax-H3\] Reuse Ulysses shard lengths across transformer blocks | [#15064](https://github.com/huggingface/diffusers/pull/15064) |
-| **vLLM** | \[LoRA\] Account for CLIP CLS rows in LLaVA tower mappings | [#61799](https://github.com/vllm-project/vllm/pull/61799) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Aopen+-user%3ALeslieWylie)
 
