@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeslieWylie/LeslieWylie/main/assets/header.svg" alt="Lele — Agent Engineering &amp; Inference Systems" width="100%" />
+  <img src="https://raw.githubusercontent.com/LeslieWylie/LeslieWylie/main/assets/header.svg" alt="wuyaole — Agent Engineering &amp; Inference Systems" width="100%" />
 </p>
 
-# Lele · Open-source contributor
+# wuyaole · Open-source contributor
 
-I contribute to inference runtimes and agent tooling, focusing on multimodal generation, LoRA correctness, and agent memory.
+I build agent tooling and contribute to inference runtimes, with work across multimodal models, model serving, and runtime correctness.
 
 我关注 **Agent 工程与模型推理优化**，通过上游 PR 贡献模型接入、推理优化和运行时修复。
 
@@ -19,6 +19,8 @@ I contribute to inference runtimes and agent tooling, focusing on multimodal gen
 | **Sana** | \[Sol-H3\] Support custom resident text encoders | [#505](https://github.com/NVlabs/Sana/pull/505) |
 | **vLLM-Omni** | Preserve CUDA toolkit header precedence in a2a JIT builds | [#7599](https://github.com/vllm-project/vllm-omni/pull/7599) |
 | **FastVideo** | Import MiniMax H3 Comfy NVFP4-AWQ text encoder | [#1865](https://github.com/hao-ai-lab/FastVideo/pull/1865) |
+| **FirstData** | docs: document MCP status tool | [#237](https://github.com/MLT-OSS/FirstData/pull/237) |
+| **FastVideo** | Preserve video frames when decoded audio is shorter | [#1857](https://github.com/hao-ai-lab/FastVideo/pull/1857) |
 
 [All merged upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Amerged+-user%3ALeslieWylie)
 
@@ -30,12 +32,12 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
 | **vLLM-Omni** | Load Alibaba PDD adapters for MiniMax H3 | [#7425](https://github.com/vllm-project/vllm-omni/pull/7425) |
+| **FlashInfer** | fix(quantization): reject unsupported FP4 quantization targets | [#7987](https://github.com/flashinfer-ai/flashinfer/pull/7987) |
+| **vLLM** | \[CI\] Run Anthropic contract tests on CPU | [#64694](https://github.com/vllm-project/vllm/pull/64694) |
+| **AIPerf** | fix(metrics): report nested prompt cache writes | [#1646](https://github.com/ai-dynamo/aiperf/pull/1646) |
+| **FlashInfer** | fix(quantization): reject unsupported CUDA MXFP8 devices | [#7986](https://github.com/flashinfer-ai/flashinfer/pull/7986) |
 | **FastVideo** | Reuse MiniMax-H3 text conditioning across seed sweeps | [#2022](https://github.com/hao-ai-lab/FastVideo/pull/2022) |
 | **SGLang** | openai: support field-specific assistant continuation | [#46624](https://github.com/sgl-project/sglang/pull/46624) |
-| **SGLang** | responses: Align K3 input token usage with Chat | [#46607](https://github.com/sgl-project/sglang/pull/46607) |
-| **vLLM** | \[Frontend\] Reject unsupported nested Anthropic tool-result content | [#63404](https://github.com/vllm-project/vllm/pull/63404) |
-| **huggingface/diffusers** | \[MiniMax-H3\] Postprocess decoded video in frame batches | [#15070](https://github.com/huggingface/diffusers/pull/15070) |
-| **huggingface/diffusers** | \[MiniMax-H3\] Reuse Ulysses shard lengths across transformer blocks | [#15064](https://github.com/huggingface/diffusers/pull/15064) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Aopen+-user%3ALeslieWylie)
 

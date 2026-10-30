@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="260" viewBox="0 0 1280 260" role="img" aria-labelledby="title desc">
-  <title id="title">Lele — Agent Engineering and Inference Systems</title>
+  <title id="title">wuyaole — Agent Engineering and Inference Systems</title>
   <desc id="desc">A minimal dark banner with connected nodes representing memory, agents, and inference.</desc>
   <rect width="1280" height="260" rx="12" fill="#0d1720"/>
   <rect x="1" y="1" width="1278" height="258" rx="11" fill="none" stroke="#253844"/>
   <path d="M52 55h30" stroke="#68d8b5" stroke-width="4"/>
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
     <text x="98" y="61" fill="#9db3c1" font-size="17" letter-spacing="3">AGENT ENGINEERING / INFERENCE SYSTEMS</text>
-    <text x="50" y="150" fill="#f0f6fa" font-size="70" font-weight="700" letter-spacing="-2">Lele.</text>
+    <text x="50" y="150" fill="#f0f6fa" font-size="70" font-weight="700" letter-spacing="-2">wuyaole.</text>
     <text x="52" y="202" fill="#b2c4ce" font-size="25">Agent engineering. Inference systems. Open source.</text>
   </g>
   <g fill="none" stroke="#35515e" stroke-width="2">
