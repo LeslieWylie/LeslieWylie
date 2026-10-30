@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeslieWylie/LeslieWylie/main/assets/header.svg" alt="wuyaole — Agent Engineering &amp; Inference Systems" width="100%" />
+  <img src="https://raw.githubusercontent.com/LeslieWylie/LeslieWylie/main/assets/header-profile.svg" alt="wuyaole — Agent Engineering &amp; Inference Systems" width="100%" />
 </p>
 
 I'm **wuyaole**. I build agent tools and contribute to inference runtimes — from multimodal models to serving reliability.
