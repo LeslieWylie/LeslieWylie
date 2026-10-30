@@ -102,7 +102,6 @@ def table(prs, config, state):
 
 def render(config, merged, opened):
     return "\n\n".join([
-        "## ./upstream",
         "### Merged PRs",
         table(select_prs(merged, config, "merged"), config, "merged"),
         f"[All merged upstream PRs →]({search_link(config['author'], 'merged')})",
