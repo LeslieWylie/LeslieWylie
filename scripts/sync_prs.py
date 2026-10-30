@@ -109,7 +109,7 @@ def render(config, merged, opened):
         "Selected open, non-draft proposals. Titles and status sync from GitHub daily.",
         table(select_prs(opened, config, "open"), config, "open"),
         f"[All open upstream PRs →]({search_link(config['author'], 'open')})",
-        "[Automatic PR sync](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml) · Daily at 08:17 Beijing time.",
+        "[Automatic PR sync](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml) · Scheduled daily for 08:17 Beijing time; GitHub may start it later.",
     ])
 
 
