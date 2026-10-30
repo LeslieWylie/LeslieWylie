@@ -87,28 +87,29 @@ def search_link(author, state):
     return "https://github.com/pulls?" + urlencode({"q": query})
 
 
-def contribution_list(prs, config, state):
+def table(prs, config, state):
     if not prs:
         return "No public upstream PRs to display in this category."
-    rows = []
+    heading = "Contribution" if state == "merged" else "Proposed change"
+    rows = [f"| Project | {heading} | PR |", "| :--- | :--- | :--- |"]
     for pr in prs:
         repo = pr["repository"]["nameWithOwner"]
         name = config["project_names"].get(repo, repo)
         title = re.sub(r"^(?:\[(?:bugfix|fix|feat|feature|model|kernel|docs)\]\s*)+", "", pr["title"], flags=re.I)
-        rows.append(f"- **{cell(name)}** · [{cell(title)} · #{pr['number']}]({pr['url']})")
+        rows.append(f"| **{cell(name)}** | {cell(title)} | [#{pr['number']}]({pr['url']}) |")
     return "\n".join(rows)
 
 
 def render(config, merged, opened):
     return "\n\n".join([
         "## Merged PRs",
-        contribution_list(select_prs(merged, config, "merged"), config, "merged"),
+        table(select_prs(merged, config, "merged"), config, "merged"),
         f"[All merged upstream PRs →]({search_link(config['author'], 'merged')})",
         "## Open PRs",
-        "Selected proposals currently open for review or discussion.",
-        contribution_list(select_prs(opened, config, "open"), config, "open"),
+        "Selected open, non-draft proposals. Titles and status sync from GitHub daily.",
+        table(select_prs(opened, config, "open"), config, "open"),
         f"[All open upstream PRs →]({search_link(config['author'], 'open')})",
-        "<sub>PR titles and status [sync daily](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml), scheduled for 08:17 Beijing time. GitHub may start it later.</sub>",
+        "[Automatic PR sync](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml) · Scheduled daily for 08:17 Beijing time; GitHub may start it later.",
     ])
 
 
