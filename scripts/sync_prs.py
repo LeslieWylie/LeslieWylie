@@ -102,10 +102,11 @@ def table(prs, config, state):
 
 def render(config, merged, opened):
     return "\n\n".join([
-        "## Merged PRs",
+        "## ./upstream",
+        "### Merged PRs",
         table(select_prs(merged, config, "merged"), config, "merged"),
         f"[All merged upstream PRs →]({search_link(config['author'], 'merged')})",
-        "## Open PRs",
+        "### Open PRs",
         "Selected open, non-draft proposals. Titles and status sync from GitHub daily.",
         table(select_prs(opened, config, "open"), config, "open"),
         f"[All open upstream PRs →]({search_link(config['author'], 'open')})",

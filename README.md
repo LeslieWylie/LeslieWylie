@@ -1,17 +1,24 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeslieWylie/LeslieWylie/main/assets/header.svg" alt="wuyaole — Agent Engineering &amp; Inference Systems" width="100%" />
+  <img src="https://raw.githubusercontent.com/LeslieWylie/LeslieWylie/main/assets/terminal-banner.svg" alt="wuyaole — agent engineering and inference systems" width="100%" />
 </p>
 
-# wuyaole · Open-source contributor
+```console
+wuyaole@open-source:~$ cat profile
+focus    agent engineering · inference systems
+work     multimodal models · serving · runtime fixes
+approach build tools · contribute upstream
+```
 
-I build agent tooling and contribute to inference runtimes, with work across multimodal models, model serving, and runtime correctness.
-
-我关注 **Agent 工程与模型推理优化**，通过上游 PR 贡献模型接入、推理优化和运行时修复。
+我关注 **Agent 工程与模型推理优化**，通过开源贡献推进模型接入、运行时修复和工具建设。
 
 [Merged PRs](#merged-prs) · [Open PRs](#open-prs) · [Agent projects](#agent-projects) · [All upstream PRs ↗](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+-user%3ALeslieWylie)
 
+---
+
 <!-- PR-SYNC:START -->
-## Merged PRs
+## ./upstream
+
+### Merged PRs
 
 | Project | Contribution | PR |
 | :--- | :--- | :--- |
@@ -24,7 +31,7 @@ I build agent tooling and contribute to inference runtimes, with work across mul
 
 [All merged upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Amerged+-user%3ALeslieWylie)
 
-## Open PRs
+### Open PRs
 
 Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 
@@ -44,7 +51,9 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 [Automatic PR sync](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml) · Scheduled daily for 08:17 Beijing time; GitHub may start it later.
 <!-- PR-SYNC:END -->
 
-## Agent projects
+## ./agent_projects
+
+### Agent projects
 
 | Project | What it does |
 | :--- | :--- |
@@ -55,7 +64,9 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 
 Also exploring [coding-agent evaluation](https://github.com/LeslieWylie/terminal-bench-rl-novita-benchmark) and [verifiable distributed inference](https://github.com/LeslieWylie/Distributed_inference_system_under_ZKP).
 
-**Tools I use:** Python · TypeScript / JavaScript · PyTorch · MCP · FastAPI · Docker
+### ./toolchain
+
+Python · TypeScript / JavaScript · PyTorch · MCP · FastAPI · Docker
 
 ---
 

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">wuyaole — agent engineering and inference systems</title>
+  <desc id="desc">A terminal-inspired banner for open-source work.</desc>
+  <rect width="1200" height="190" rx="9" fill="#0d1117"/>
+  <rect x="1" y="1" width="1198" height="188" rx="8" fill="none" stroke="#293b32"/>
+  <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace">
+    <text x="48" y="55" font-size="20" fill="#8b949e">wuyaole@open-source:~$</text>
+    <text x="48" y="119" font-size="48" font-weight="700" fill="#55e599">agent engineering <tspan fill="#7d8590">/</tspan> inference</text>
+    <text x="50" y="158" font-size="20" fill="#b9c8c1">building tools  ·  contributing upstream  ·  learning in public</text>
+  </g>
+  <rect x="1070" y="38" width="80" height="3" fill="#55e599"/>
+</svg>
