@@ -1,36 +1,26 @@
-### 👋 Hi, I'm wuyaole
+<p align="center">
+  <img src="assets/profile-illustration.png" alt="Hi, I'm wuyaole. Agent engineering, agent memory, and inference systems." width="100%" />
+</p>
 
-I build agent tools and contribute to open-source inference systems. My work spans multimodal models, serving, and runtime correctness.
+I build agent tools and contribute to open-source inference systems, from multimodal models to serving and runtime correctness.
 
-我关注 **Agent 工程与模型推理优化**，通过上游贡献推进模型接入、运行时修复和工具建设。
-
-This page highlights my upstream contributions and agent projects.
-
-### Open-source projects I contribute to
-
-[![vLLM — inference and serving](assets/projects/vllm.svg)](https://github.com/vllm-project/vllm)
-
-[![vLLM-Omni — multimodal inference](assets/projects/vllm-omni.svg)](https://github.com/vllm-project/vllm-omni)
-
-[![FastVideo — video generation](assets/projects/fastvideo.svg)](https://github.com/hao-ai-lab/FastVideo)
-
-[Merged PRs](#merged-prs) · [Open PRs](#open-prs) · [Agent projects](#agent-projects) · [All upstream PRs ↗](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+-user%3ALeslieWylie)
+我关注 **Agent 工程与模型推理优化**，通过上游贡献推进模型接入、推理与运行时修复。
 
 <!-- PR-SYNC:START -->
-### Merged PRs
+### Selected contributions
+
+Selected merged upstream pull requests.
 
 | Project | Contribution | PR |
 | :--- | :--- | :--- |
 | **vLLM** | \[LoRA\] Keep failed activations retryable | [#61618](https://github.com/vllm-project/vllm/pull/61618) |
-| **Sana** | \[Sol-H3\] Support custom resident text encoders | [#505](https://github.com/NVlabs/Sana/pull/505) |
 | **vLLM-Omni** | Preserve CUDA toolkit header precedence in a2a JIT builds | [#7599](https://github.com/vllm-project/vllm-omni/pull/7599) |
 | **FastVideo** | Import MiniMax H3 Comfy NVFP4-AWQ text encoder | [#1865](https://github.com/hao-ai-lab/FastVideo/pull/1865) |
-| **FirstData** | docs: document MCP status tool | [#237](https://github.com/MLT-OSS/FirstData/pull/237) |
-| **FastVideo** | Preserve video frames when decoded audio is shorter | [#1857](https://github.com/hao-ai-lab/FastVideo/pull/1857) |
 
 [All merged upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Amerged+-user%3ALeslieWylie)
 
-### Open PRs
+<details>
+<summary>Open PRs · proposals and work in progress</summary>
 
 Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 
@@ -47,6 +37,8 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Aopen+-user%3ALeslieWylie)
 
+</details>
+
 [Automatic PR sync](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml) · Scheduled daily for 08:17 Beijing time; GitHub may start it later.
 <!-- PR-SYNC:END -->
 
@@ -55,15 +47,11 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | Project | What it does |
 | :--- | :--- |
 | **[repository-memory](https://github.com/LeslieWylie/repository-memory)** | Source-backed memory for coding agents, with Git citations, a local store, CLI, and MCP server. |
-| **[dsh-ops-kit](https://github.com/LeslieWylie/dsh-ops-kit)** | Evidence-driven memory, orchestration, benchmark checks, and release workflows for DeepSeek Harness. |
-| **[dsh-session-search-pro](https://github.com/LeslieWylie/dsh-session-search-pro)** | Search past and live DeepSeek Harness sessions through the runtime's own session service. |
+| **[dsh-ops-kit](https://github.com/LeslieWylie/dsh-ops-kit)** | Evidence-driven memory, orchestration, benchmarks, and release workflows for DeepSeek Harness. |
+| **[dsh-session-search-pro](https://github.com/LeslieWylie/dsh-session-search-pro)** | Search past and live DeepSeek Harness sessions through its session service. |
 | **[review-workflow](https://github.com/LeslieWylie/review-workflow)** | Structured review with independent panelists, disagreement resolution, and a separate critic. |
 
 Also exploring [coding-agent evaluation](https://github.com/LeslieWylie/terminal-bench-rl-novita-benchmark) and [verifiable distributed inference](https://github.com/LeslieWylie/Distributed_inference_system_under_ZKP).
-
-### Tools
-
-Python · TypeScript / JavaScript · PyTorch · MCP · FastAPI · Docker
 
 ---
 

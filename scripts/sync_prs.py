@@ -56,6 +56,8 @@ def select_prs(prs, config, state):
     author = config["author"].lower()
     excluded = set(config["exclude"])
     featured = set(config["featured"])
+    if state == "merged":
+        featured.update(config.get("featured_merged", []))
     candidates = [pr for pr in prs
                   if not pr["repository"]["isPrivate"]
                   and pr["repository"]["owner"]["login"].lower() != author
@@ -101,14 +103,24 @@ def table(prs, config, state):
 
 
 def render(config, merged, opened):
+    selected = select_prs(merged, config, "merged")
+    selected_by_key = {pr_key(pr): pr for pr in selected}
+    featured = [selected_by_key[key] for key in config.get("featured_merged", [])
+                if key in selected_by_key]
+    featured_keys = {pr_key(pr) for pr in featured}
+    featured.extend(pr for pr in selected if pr_key(pr) not in featured_keys)
+    featured = featured[:3]
+
     return "\n\n".join([
-        "### Merged PRs",
-        table(select_prs(merged, config, "merged"), config, "merged"),
+        "### Selected contributions",
+        "Selected merged upstream pull requests.",
+        table(featured, config, "merged"),
         f"[All merged upstream PRs →]({search_link(config['author'], 'merged')})",
-        "### Open PRs",
+        "<details>\n<summary>Open PRs · proposals and work in progress</summary>",
         "Selected open, non-draft proposals. Titles and status sync from GitHub daily.",
         table(select_prs(opened, config, "open"), config, "open"),
         f"[All open upstream PRs →]({search_link(config['author'], 'open')})",
+        "</details>",
         "[Automatic PR sync](https://github.com/LeslieWylie/LeslieWylie/actions/workflows/sync-prs.yml) · Scheduled daily for 08:17 Beijing time; GitHub may start it later.",
     ])
 

@@ -1,13 +1,21 @@
 {
   "author": "LeslieWylie",
-  "limits": {"merged": 6, "open": 8},
-  "per_project": {"merged": 3, "open": 2},
+  "limits": {
+    "merged": 6,
+    "open": 8
+  },
+  "per_project": {
+    "merged": 3,
+    "open": 2
+  },
   "featured": [
     "vllm-project/vllm#61618",
     "vllm-project/vllm-omni#7425",
     "vllm-project/vllm-omni#8677"
   ],
-  "exclude": ["sgl-project/sglang#37638"],
+  "exclude": [
+    "sgl-project/sglang#37638"
+  ],
   "project_names": {
     "flashinfer-ai/flashinfer": "FlashInfer",
     "ai-dynamo/aiperf": "AIPerf",
@@ -19,5 +27,10 @@
     "OpenVDN/vdn-minimax-h3": "OpenVDN",
     "NVlabs/Sana": "Sana",
     "MLT-OSS/FirstData": "FirstData"
-  }
+  },
+  "featured_merged": [
+    "vllm-project/vllm#61618",
+    "vllm-project/vllm-omni#7599",
+    "hao-ai-lab/FastVideo#1865"
+  ]
 }
