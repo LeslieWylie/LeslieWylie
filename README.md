@@ -28,12 +28,12 @@ Selected open, non-draft proposals. Titles and status sync from GitHub daily.
 | :--- | :--- | :--- |
 | **vLLM-Omni** | Fuse H3 final affine and FP32 promotion | [#8677](https://github.com/vllm-project/vllm-omni/pull/8677) |
 | **vLLM-Omni** | Load Alibaba PDD adapters for MiniMax H3 | [#7425](https://github.com/vllm-project/vllm-omni/pull/7425) |
+| **SGLang** | deepseek\_v41: track image work after cancellation | [#47457](https://github.com/sgl-project/sglang/pull/47457) |
+| **SGLang** | tracing: Attribute prefix checkpoint CPU time to requests | [#47450](https://github.com/sgl-project/sglang/pull/47450) |
+| **FlashInfer** | ci: report failed and cancelled matrix lanes in test summary | [#7996](https://github.com/flashinfer-ai/flashinfer/pull/7996) |
 | **vLLM** | \[Benchmark\] Reject incomplete completion streams | [#64703](https://github.com/vllm-project/vllm/pull/64703) |
 | **FlashInfer** | fix(quantization): reject unsupported FP4 quantization targets | [#7987](https://github.com/flashinfer-ai/flashinfer/pull/7987) |
 | **vLLM** | \[CI\] Run Anthropic contract tests on CPU | [#64694](https://github.com/vllm-project/vllm/pull/64694) |
-| **AIPerf** | fix(metrics): report nested prompt cache writes | [#1646](https://github.com/ai-dynamo/aiperf/pull/1646) |
-| **FlashInfer** | fix(quantization): reject unsupported CUDA MXFP8 devices | [#7986](https://github.com/flashinfer-ai/flashinfer/pull/7986) |
-| **FastVideo** | Reuse MiniMax-H3 text conditioning across seed sweeps | [#2022](https://github.com/hao-ai-lab/FastVideo/pull/2022) |
 
 [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3ALeslieWylie+is%3Apublic+is%3Aopen+-user%3ALeslieWylie)
 
